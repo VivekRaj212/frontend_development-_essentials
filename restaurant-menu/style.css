@@ -1,0 +1,19 @@
+
+html {
+
+    font-size: 22px;
+}
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+    
+}
+
+li {
+
+    color: rgb(6, 24, 182);
+}

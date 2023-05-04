@@ -1,0 +1,23 @@
+html {
+    font-size: 20px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1e1c2;
+    height: 80vh;
+}
+
+button {
+    margin-top: 20px;
+     padding: 5px;
+}
+
+input {
+
+  margin-top: 17px;
+
+}
