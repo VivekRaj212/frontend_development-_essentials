@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+
+    height: 100%;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body {
+
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+ #heading {
+
+    font-size: 40px;
+    color: rgb(248, 212, 53);
+    text-align: center;
+}
+
+
+.card-body {
+
+    background-color: rgb(215, 217, 250);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45); */
+}
+
+.card-btn {
+
+    display: flex;
+    gap: 60px;
+}
+
+.card-body h1 {
+
+    font-size: 70px;
+    color:rgb(3, 71, 110);
+}
+
+button {
+    background-color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+}
